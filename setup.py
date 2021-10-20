@@ -66,7 +66,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['data', '*.ex']),
+    packages=find_packages(exclude=['data', 'ex']),
     
     # See https://www.python.org/dev/peps/pep-0440/#version-specifiers
     # comparible with 2.7+ including 3.x
